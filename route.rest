@@ -1,0 +1,31 @@
+###
+post http://localhost/backend_api/?url=register
+Accept: application/json
+
+{
+    "nom": "test",
+    "prenom": "testons",
+    "email": "letesdddte@mail.com",
+    "password": "passer"
+}
+
+###
+post http://localhost/backend_api/?url=login
+Accept: application/json
+
+{
+    "email": "yanis@mail.com",
+    "password": "passer"
+}
+
+
+###
+post http://localhost/backend_api/?url=add_task
+Accept: application/json
+
+{
+    "nom": "test",
+    "description": "testons",
+    "date": "2024-07-15",
+    "id": 3
+}
